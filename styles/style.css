@@ -1,0 +1,41 @@
+/*Styles */
+.vkb-icon{    
+    width: 30px;
+    height: 21px;
+    background: url(../images/keyboard-icon.png) no-repeat 0px -2px;
+    background-size: 30px 25px;
+ float:left;
+}
+
+input{
+float:left;
+}
+
+.key{
+  width: 45px;
+    height: 31px;
+    background-color: rgba(20, 22, 23, 0.46);
+    margin: 2px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    cursor: default;
+    border: 1px solid rgba(0, 0, 0, 0.74);
+    float:left;
+}
+
+.key:hover{
+box-shadow: 0px 0px 5px 0.5px #8e8383;
+}
+.clear{
+clear:both;
+}
+
+.on-board{
+width:550px;
+list-style-type: none;
+height: 110px;
+}
+.off-board{
+display:none;
+}

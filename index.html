@@ -1,0 +1,24 @@
+<!Doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="styles/style.css" type="text/css" />
+</head>
+<body>
+<div><input id="box" type="text" placeholder="Enter Username" />
+<div class="vkb-icon" id="icon1"></div><div class="clear"></div></div>
+<div><input id="box2" type="text" placeholder="Enter password" />
+<div class="vkb-icon" id="icon2"></div><div class="clear"></div></div>
+</body>
+<script src="scripts/Key.js"></script>
+<script src="scripts/board.js"></script>
+<script>
+var board2 = new Board(document.getElementById("box"));
+board2.toggleBoard(document.getElementById("icon1"));
+
+var board = new Board(document.getElementById("box2"));
+board.toggleBoard(document.getElementById("icon2"));
+
+
+
+</script>
+</html>
